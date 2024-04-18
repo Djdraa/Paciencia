@@ -1,0 +1,110 @@
+/* Estilos para el contenedor principal */
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  h2{
+    font-weight: normal;
+    font-family: "Times New Roman", Times, serif;
+  }
+  h3 {
+    font-weight: normal; /* Anula la negrita */
+    font-family: "Times New Roman", Times, serif;
+  }
+  /* Estilos para el contenedor del formulario */
+  .container {
+    width: 100%;
+    max-width: 450px; /* Ancho máximo del contenedor */
+    padding: 20px;
+  }
+  
+  /* Estilos para el formulario */
+  .testbox {
+    width: 100%;
+    max-width: 400px; /* Ancho máximo del formulario */
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: 20px 50px; /* Ajuste del padding para centrar los inputs */
+    box-sizing: border-box;
+    margin: 0 auto;
+    background-color: #ffffff; /* Fondo blanco para el formulario */
+}
+  
+  /* Estilos para el encabezado del formulario */
+  .testbox h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para el formulario interno */
+  .testbox form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Estilos para las etiquetas del formulario */
+  .testbox label {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .icon {
+    position: absolute;
+    left: 10px; /* Ajusta la posición del icono a la izquierda */
+    top: 50%; /* Centra verticalmente el icono */
+    transform: translateY(-50%);
+    color: #888; /* Color del icono */
+    font-size: 20px; /* Tamaño del icono */
+    pointer-events: none; /* Evita que el icono sea clickeable */
+    z-index: 1; /* Asegura que el icono esté por encima del texto del input */
+}
+  /* Estilos para los campos de entrada del formulario */
+ /* Estilos para los campos de entrada del formulario */
+/* Estilos para los campos de entrada del formulario */
+.testbox input[type="email"],
+.testbox input[type="password"] {
+    width: calc(100% - 60px); /* Restar el padding del ancho para que tenga el mismo tamaño que el botón */
+    padding: 10px 30px; /* Aumenta el padding izquierdo para dar espacio al icono */
+    margin: 5px auto; /* Ajuste del margin para centrar verticalmente y separar de las esquinas */
+    border: none;
+    border-bottom: 2px solid #ccc;
+    background-color: #e6e6e6; /* Establece el color de fondo */
+    outline: none;
+    font-size: 18px;
+    font-family: "Times New Roman", Times, serif; /* Aplica Times New Roman a los inputs */
+    display: block; /* Asegura que los inputs se muestren como bloques para que se puedan centrar horizontalmente */
+    position: relative; /* Permite que los iconos absolutos sean posicionados correctamente */
+}
+  /* Estilos para el botón de envío del formulario */
+  .testbox button {
+    width: calc(100% - 60px); /* Restar el padding del ancho para que tenga el mismo tamaño que el botón */
+    padding: 15px; /* Aumentar el padding para hacer el botón más grande */
+    margin-top: 20px; /* Añadir un poco más de espacio encima del botón */
+    margin-left: auto; /* Centrar el botón horizontalmente */
+    margin-right: auto; /* Centrar el botón horizontalmente */
+    border: none;
+    background: #5cb85c;
+    color: #fff;
+    cursor: pointer;
+    font-size: 24px; /* Aumentar el tamaño de la letra del botón */
+    font-family: "Times New Roman", Times, serif; /* Aplica Times New Roman al botón */
+    display: block; /* Asegura que el botón se muestre como bloque para que se pueda centrar horizontalmente */
+}
+  
+  /* Estilos para la imagen */
+  /* Estilos para el formulario */
+/* Estilos para el formulario */
+.testbox {
+    width: 100%;
+    max-width: 400px; /* Ancho máximo del formulario */
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: none; /* Quita el efecto de sombra */
+    box-sizing: border-box;
+    margin: 0 auto;
+    background-color: #ffffff; /* Fondo blanco para el formulario */
+}
